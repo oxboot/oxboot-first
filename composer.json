@@ -1,0 +1,54 @@
+{
+  "name": "oxboot/oxboot",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress framework with modern development tools",
+  "homepage": "https://oxboot.com",
+  "authors": [
+    {
+      "name": "Zorca",
+      "email": "vs@zorca.org",
+      "homepage": "https://zorca.org"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wp", "composer"
+  ],
+  "support": {
+    "issues": "https://github.com/oxboot/oxboot/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "composer/installers": "^1.4",
+    "johnpbloch/wordpress": "4.9.4",
+    "filp/whoops": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "htdocs/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "htdocs/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "htdocs/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "htdocs/wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+# Composer
+vendor/
+
+# WordPress
+htdocs/wp/
+
+# Dotenv
+.env
