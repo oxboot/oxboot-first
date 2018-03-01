@@ -3,6 +3,7 @@ vendor/
 
 # WordPress
 htdocs/wp/
+htdocs/.htaccess
 
 # Dotenv
 .env
