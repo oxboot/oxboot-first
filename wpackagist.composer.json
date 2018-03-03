@@ -6,14 +6,6 @@
     }
   ],
   "require": {
-    "composer/installers": "^1.4",
     "wpackagist-plugin/hello-dolly": "*"
-  },
-  "extra": {
-    "installer-paths": {
-      "htdocs/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "htdocs/content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
-    }
   }
 }
