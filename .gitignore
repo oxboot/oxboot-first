@@ -1,5 +1,13 @@
 # App
-htdocs/content/
+htdocs/content/plugins/*
+!htdocs/content/plugins/.gitkeep
+htdocs/content/mu-plugins/*
+!htdocs/content/mu-plugins/.gitkeep
+htdocs/content/oxboot-plugins/*
+!htdocs/content/oxboot-plugins/.gitkeep
+htdocs/content/uploads/*
+!htdocs/content/uploads/.gitkeep
+htdocs/content/upgrade
 
 # Composer
 vendor/

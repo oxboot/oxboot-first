@@ -23,8 +23,8 @@
   "require": {
     "php": ">=7.1.3",
     "composer/installers": "^1.4",
-    "wikimedia/composer-merge-plugin": "^1.4",
     "johnpbloch/wordpress": "4.9.4",
+    "wikimedia/composer-merge-plugin": "^1.4",
     "vlucas/phpdotenv": "^2.4",
     "oscarotero/env": "^1.1",
     "oxboot/framework": "dev-master"
