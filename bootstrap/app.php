@@ -65,6 +65,9 @@ if (!defined('ABSPATH')) {
     define('ABSPATH', $webrootDir . '/wp/');
 }
 
+/**
+ * Oxboot Constants
+ */
 define('OXBOOT_ERROR', env('OXBOOT_ERROR') ?: false);
 
 /**
