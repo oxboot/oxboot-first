@@ -9,6 +9,9 @@ htdocs/content/uploads/*
 !htdocs/content/uploads/.gitkeep
 htdocs/content/upgrade
 
+# Default Theme
+htdocs/content/themes/theme/dist/
+
 # Composer
 vendor/
 
@@ -18,3 +21,7 @@ htdocs/.htaccess
 
 # Dotenv
 .env
+
+# Laravel Mix
+node_modules/
+mix-manifest.json
