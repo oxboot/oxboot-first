@@ -1,2 +1,2 @@
 # Oxboot
-WordPress framework with modern development tools
+WordPress boilerplate with modern development tools
