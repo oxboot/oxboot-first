@@ -13,5 +13,6 @@ let mix = require('laravel-mix');
 
 mix.setPublicPath("./");
 
+// Settings for Default Oxboot Starter Theme
 mix.js('htdocs/content/themes/theme/assets/scripts/theme.js', 'htdocs/content/themes/theme/dist/scripts/theme.js')
   .sass('htdocs/content/themes/theme/assets/styles/theme.scss', 'htdocs/content/themes/theme/dist/styles/theme.css');
