@@ -9,6 +9,7 @@
   <arg name="extensions" value="php"/>
 
   <!-- Ignore WordPress and Composer dependencies -->
+  <exclude-pattern>htdocs/content/plugins/</exclude-pattern>
   <exclude-pattern>htdocs/wp</exclude-pattern>
   <exclude-pattern>vendor/</exclude-pattern>
 
