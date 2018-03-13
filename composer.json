@@ -18,7 +18,9 @@
     "issues": "https://github.com/oxboot/oxboot/issues"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
   },
   "require": {
     "php": ">=7.1.3",
