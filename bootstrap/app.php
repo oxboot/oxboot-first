@@ -1,5 +1,7 @@
 <?php
 
+use Oxboot\Framework\Application;
+
 $rootDir = dirname(__DIR__);
 $webrootDir = $rootDir . '/htdocs';
 
@@ -80,14 +82,14 @@ if (defined('OXBOOT_ERROR') && OXBOOT_ERROR) {
     $whoops->register();
 }
 
-$app = new \Oxboot\Framework\Application($rootDir);
+$app = new Application($rootDir);
 
 if (! function_exists('oxboot')) {
     function oxboot($abstract = null, array $parameters = [])
     {
         if (is_null($abstract)) {
-            return \Oxboot\Framework\Application::getInstance();
+            return Application::getInstance();
         }
-        return \Oxboot\Framework\Application::getInstance()->make($abstract, $parameters);
+        return Application::getInstance()->make($abstract, $parameters);
     }
 }
