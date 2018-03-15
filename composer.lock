@@ -128,7 +128,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.6.11",
+            "version": "v5.6.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -172,7 +172,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.6.11",
+            "version": "v5.6.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -390,12 +390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oxboot/framework.git",
-                "reference": "5b342da3f44633fc7c8faf3af7a3efc98c3e2685"
+                "reference": "df824905a55c2b589ff7ba391a07844365848072"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oxboot/framework/zipball/5b342da3f44633fc7c8faf3af7a3efc98c3e2685",
-                "reference": "5b342da3f44633fc7c8faf3af7a3efc98c3e2685",
+                "url": "https://api.github.com/repos/oxboot/framework/zipball/df824905a55c2b589ff7ba391a07844365848072",
+                "reference": "df824905a55c2b589ff7ba391a07844365848072",
                 "shasum": ""
             },
             "require": {
@@ -406,7 +406,10 @@
             "autoload": {
                 "psr-4": {
                     "Oxboot\\Framework\\": "src"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -425,7 +428,7 @@
                 "oxboot",
                 "wordpress"
             ],
-            "time": "2018-03-03T10:04:21+00:00"
+            "time": "2018-03-15T18:32:16+00:00"
         },
         {
             "name": "psr/container",
