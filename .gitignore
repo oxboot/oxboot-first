@@ -3,6 +3,7 @@ htdocs/content/plugins/*
 !htdocs/content/plugins/.gitkeep
 htdocs/content/mu-plugins/*
 !htdocs/content/mu-plugins/.gitkeep
+!htdocs/content/mu-plugins/oxboot-loader.php
 htdocs/content/oxboot-plugins/*
 !htdocs/content/oxboot-plugins/.gitkeep
 htdocs/content/uploads/*

@@ -390,12 +390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oxboot/framework.git",
-                "reference": "9a094bf4fd540ac3caf16f3213a3eff6465db8c5"
+                "reference": "04eb01e1ae1777f9381fd51a7e8f11f383255bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oxboot/framework/zipball/9a094bf4fd540ac3caf16f3213a3eff6465db8c5",
-                "reference": "9a094bf4fd540ac3caf16f3213a3eff6465db8c5",
+                "url": "https://api.github.com/repos/oxboot/framework/zipball/04eb01e1ae1777f9381fd51a7e8f11f383255bee",
+                "reference": "04eb01e1ae1777f9381fd51a7e8f11f383255bee",
                 "shasum": ""
             },
             "require": {
@@ -428,7 +428,7 @@
                 "oxboot",
                 "wordpress"
             ],
-            "time": "2018-03-15T20:09:52+00:00"
+            "time": "2018-03-16T20:26:54+00:00"
         },
         {
             "name": "psr/container",
