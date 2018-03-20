@@ -80,4 +80,6 @@ if (defined('OXBOOT_ERROR') && OXBOOT_ERROR) {
     $whoops->register();
 }
 
-$app = new \Oxboot\Framework\Application($rootDir);
+if (class_exists('\Oxboot\Framework\Application')) {
+    $app = new \Oxboot\Framework\Application($rootDir);
+}
